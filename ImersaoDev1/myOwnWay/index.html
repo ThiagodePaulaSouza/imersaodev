@@ -8,18 +8,32 @@
     <link rel="stylesheet" href="./src/assets/style/index.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="page-title">
-            Calculadora de Média
-        </h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
-        <img src="./src/assets/images/logo-imersao-conversor-de-moedas.svg" alt="Alguma logo" class="page-logo">
-    </div>
-    <a href="https://alura.com.br/" target="_blank">
-        <img src="./src/assets/images/Alura-_-Cursos-online-de-Tecnologia.svg" alt="" class="alura-logo">
-    </a>
+    <main>
+        <div class="container">
+            <section class="container__pagina pagina">
+                <h1 class="pagina__title">Calculadora de Média</h1>
+                <p class="pagina__subtitle">Descubra qual a sua média de nota de todas as provas!</p>
+                <img class="pagina__image" src="./src/assets/images/logo-imersao-conversor-de-moedas.svg" alt="Alguma logo">
+            </section>
+            <section class="container__calculadora calculadora">
+                <form class="container__formulario formulario">
+                    <input class="PrimeiroTxfGrade formulario__input" type="number" placeholder="Nota Primeiro Bimestre">
+                    <input class="SegundoTxfGrade formulario__input" type="number" placeholder="Nota Segundo Bimestre">
+                    <input class="TerceiroTxfGrade formulario__input" type="number" placeholder="Nota Terceiro Bimestre">
+                    <input class="QuartoTxfGrade formulario__input" type="number" placeholder="Nota Quarto Bimestre">
+                    <div class="formulario__actions actions">
+                        <button class="actions__button" id="button" onclick="calculateButton()" type="button">Calcular</button>
+                    </div>
+                    <label class="fromulario__label"></label>
+                </form>
+            </section>            
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="./src/assets/images/Alura-_-Cursos-online-de-Tecnologia.svg" alt="" class="alura-logo">
+        </a>
+    </main>
+    
+    
     <script src="./src/index.js"></script>
 </body>
 </html>

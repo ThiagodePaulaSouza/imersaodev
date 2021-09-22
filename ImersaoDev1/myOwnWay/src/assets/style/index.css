@@ -1,3 +1,8 @@
+main .container__calculadora .formulario .actions__button, main .container{
+    border-radius: 2%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 body {
     font-family: sans-serif;
     min-height: 400px;
@@ -7,30 +12,118 @@ body {
     height: 100vh;
 }
 
-.container {
-    text-align: center;
-    padding: 20px;
+main {
     height: 100vh;
+    display: flex;
 }
 
-.page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
+main .container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(77, 10, 139, 0.116);
+    backdrop-filter: blur(1px);
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    justify-content: space-between;
+    padding: 40px;
 }
 
-.page-subtitle {
-    font-family: sans-serif;
-    color: whitesmoke;
-    margin-top: 5px;
+main .container .pagina {
+    width: 50%;
+    position: relative;
 }
 
-.page-logo {
-    width: 200px;
+main .container .pagina__title {
+    height: 230px;
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 11px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 2s;
+}
+  main .container .pagina__subtitle {
+    color: #fff;
+}
+  main .container .pagina__image {
+    height: 110px;
+    position: absolute;
+    top: -40%;
+    right: -55%;
+    z-index: -1;
+}
+
+main .container__calculadora {
+    width: 45%;
+}
+
+main .container__calculadora .formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container__calculadora .formulario__input {
+    color: rgba(255, 255, 255, 0.733);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(250, 44, 222, 0.466);
+    padding: 8px;
+    margin-bottom: 24px;
+    outline: none;
+}
+
+main .container__calculadora .formulario__input:last-of-type {
+    margin-bottom: 40px;
+}
+
+main .container__calculadora .formulario__input::placeholder {
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s;
+    color: #fffb0079;
+}
+
+main .container__calculadora .formulario__input:active {
+    border: 0;
+}
+
+main .container__calculadora .formulario__label {
+    text-align: end;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+main .container__calculadora .formulario .actions {
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .container__calculadora .formulario .actions__button {
+    width: 50%;
+    height: 40px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.2s;
+    background-color: rgba(238, 255, 0, 0.644);
+    color: #020e27cc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main .container__calculadora .formulario .actions__button:hover {
+    transform: scale(1.05);
+    background-color: rgba(54, 3, 95, 0.541);
+    color: white;
+    font-weight: normal;
 }
 
 .alura-logo {
-    color: white;
-    width: 40px;
+    width: 50px;
     position: absolute;
     top: 10px;
     right: 10px;
