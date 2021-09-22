@@ -35,21 +35,26 @@ main .container .pagina {
 }
 
 main .container .pagina__title {
-    height: 230px;
+    height: 80px;
     position: relative;
     font-size: 48px;
-    margin-bottom: 11px;
+    margin-bottom: 0px;
     font-weight: bold;
     color: #fff;
     transition: all 2s;
 }
   main .container .pagina__subtitle {
+    height: 200px;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-weight: normal;
     color: #fff;
 }
   main .container .pagina__image {
     height: 110px;
     position: absolute;
-    top: -40%;
+    top: -35%;
     right: -55%;
     z-index: -1;
 }
