@@ -6,7 +6,7 @@ main .container__calculadora .formulario .actions__button, main .container{
 body {
     font-family: sans-serif;
     min-height: 400px;
-    background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ee84a73-ae15-4df4-b171-efa71bf3eadc/mountains2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210922T195054Z&X-Amz-Expires=86400&X-Amz-Signature=956af02b77c557f39c8322ce3e795537dec3f9319215afa7672e2ab6ecdadfe6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22mountains2.jpg%22");
+    background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4ee84a73-ae15-4df4-b171-efa71bf3eadc/mountains2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210923T220425Z&X-Amz-Expires=86400&X-Amz-Signature=c2a0205db369395107ae8550e994184da7f83760d008ae6bf887dfc7fa683358&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22mountains2.jpg%22");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -55,7 +55,7 @@ main .container .pagina__title {
     height: 110px;
     position: absolute;
     top: -35%;
-    right: -55%;
+    right: -42%;
     z-index: -1;
 }
 
